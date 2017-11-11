@@ -9,7 +9,7 @@ module.exports = function( source ){
         Template = new TemplateEngin( options );
 
     let relative_resource_path = path.relative( Template.options.views_folder, this.resourcePath ),
-        clean_resource_path = relative_resource_path.split( path.sep ).join('/').replace( /\.js\.html$/, '' );
+        clean_resource_path = relative_resource_path.split( path.sep ).join('/').replace( /\.jshtml$/, '' );
 
     Template.setViewPath( clean_resource_path );
 

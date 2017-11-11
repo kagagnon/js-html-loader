@@ -16,6 +16,7 @@
   "author": "Karl-André Gagnon",
   "license": "ISC",
   "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
     "js-html": "github:kagagnon/js-html"
   },
   "peerDependencies": {
