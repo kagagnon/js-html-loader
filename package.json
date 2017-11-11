@@ -1,0 +1,21 @@
+{
+  "name": "js-html-loader",
+  "version": "0.0.1",
+  "description": "js-html loader for Webpack",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "template",
+    "js-html",
+    "html",
+    "loader",
+    "static-html"
+  ],
+  "author": "Karl-André Gagnon",
+  "license": "ISC",
+  "peerDependencies": {
+    "js-html": "github:kagagnon/js-html"
+  }
+}
