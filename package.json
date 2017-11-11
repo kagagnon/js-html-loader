@@ -15,6 +15,9 @@
   ],
   "author": "Karl-André Gagnon",
   "license": "ISC",
+  "devDependencies": {
+    "js-html": "github:kagagnon/js-html"
+  },
   "peerDependencies": {
     "js-html": "github:kagagnon/js-html"
   }
